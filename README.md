@@ -23,7 +23,7 @@ generatingFuncOfDegreeUpToB {n,{d1,…,dr},B}
 returns the generating function of genus 0 primary Gromov-Witten invariants of X. 
 
 Warning:
-(i) The effectivity of our algorithm is a conjecture;
+(i) The effectivity of our algorithm in generatingFuncOfDegreeUpToB is a conjecture;
 (ii) When n is odd, the terms with s-degree > m/4+1 is hypothetical, where m is the dimension of the primitive cohomology.
 
 If you encounter an information “the square root recursion fails at order ..”, please contact me! The main conjecture in an forthcoming update of  https://arxiv.org/abs/1501.03683 is, among other things, that such information will never appear.
