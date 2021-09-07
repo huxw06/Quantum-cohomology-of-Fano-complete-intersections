@@ -12,7 +12,7 @@ Then running
 
 ambientGeneratingFuncOfDegreeUpToB {n,{d_1,…,d_r},B}
 
-returns the generating function of ambient genus 0 primary Gromov-Witten invariants of X.
+returns the generating function of ambient genus 0 primary Gromov-Witten invariants of X. One can compare the results to those from Giosuè's Julia package, which is based on virtual torus localization directly.
 
 Suppose X is Not an even dimensional complete intersections of two quadrics. Namely if d=(2,2) then n must be odd. The generating function of genus 0 Gromov-Witten invariants of X, allowing non-ambient classes as insertions, depends on the variables dual to an orthonormal basis of primitive cohomology through only one variable s. For the precise definition of s see https://arxiv.org/abs/1501.03683 .
 
