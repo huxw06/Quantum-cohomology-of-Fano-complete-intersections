@@ -7,10 +7,10 @@ where 1.xx is your Macaulay2 version.
 Then in Macaulay2 running
 loadPackage "QuantumCohomologyFanoCompleteIntersection"
 
-Let X be a Fano complete intersection of dim n and multidegree d=(d1,…dr) in P^{n+r}. Let h be the hyperplane cohomology class on X. Denote by t_0,t_1,…,t_n the basis dual to 1,h,…,h^n.
+Let X be a Fano complete intersection of dim n and multidegree d=(d_1,…d_r) in P^{n+r}, where each d_i>=2. Let h be the hyperplane cohomology class on X. Denote by t_0,t_1,…,t_n the basis dual to 1,h,…,h^n.
 Then running
 
-ambientGeneratingFuncOfDegreeUpToB {n,{d1,…,dr},B}
+ambientGeneratingFuncOfDegreeUpToB {n,{d_1,…,d_r},B}
 
 returns the generating function of ambient genus 0 primary Gromov-Witten invariants of X.
 
@@ -18,7 +18,7 @@ Suppose X is Not an even dimensional complete intersections of two quadrics. Nam
 
  Then running
  
-generatingFuncOfDegreeUpToB {n,{d1,…,dr},B}
+generatingFuncOfDegreeUpToB {n,{d_1,…,d_r},B}
 
 returns the generating function of genus 0 primary Gromov-Witten invariants of X. 
 
