@@ -1,5 +1,5 @@
 # Quantum-cohomology-of-Fano-complete-intersections
-These are Macaulay2 packages that accompanying the paper https://arxiv.org/abs/1501.03683 on quantum cohomology of non-exceptional Fano complete intersections, and a paper  to appear on quantum cohomology of even dimensional complete intersections of two quadrics.
+These are Macaulay2 packages that accompany the paper https://arxiv.org/abs/1501.03683 on quantum cohomology of non-exceptional Fano complete intersections, and a paper  to appear on quantum cohomology of even dimensional complete intersections of two quadrics.
 
 To use the package QuantumCohomologyFanoCompleteIntersection.m2, for example in Mac OS, please put it into the directory
 
