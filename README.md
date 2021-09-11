@@ -27,10 +27,10 @@ returns the generating function of genus 0 primary Gromov-Witten invariants of X
 
 Warning:
 
-(i) The effectivity of our algorithm in generatingFuncOfDegreeUpToB in all s-degrees is a conjecture;
+(i) Our algorithm, based on the square root recursion, will check whether some quadratic equations have two equal roots at certain steps. If running generatingFuncOfDegreeUpToB returns a polynomial, it means that all the checks encountered are valid. But a priori the effectivity of our algorithm in running generatingFuncOfDegreeUpToB in all s-degrees is a conjecture;
 
-(ii) When n is odd, the terms with s-degree > m/4+1 is hypothetical, where m is the dimension of the primitive cohomology.
+(ii) When n is odd, the terms with s-degree > m/4+1 is hypothetical, where m is the rank of the primitive cohomology.
 
 If you encounter an information “the square root recursion fails at order ..” when you use generatingFuncOfDegreeUpToB, please contact the author! The main conjecture in an forthcoming update of  https://arxiv.org/abs/1501.03683 is, among other things, that such information will never appear.
 
-If X is an even dimensional complete intersections of two quadrics, this package also contains functions to compute the genus 0 invariants, up to an unknown special invariant. But it is hard to describe the commands without referece to the paper. So we will do this after publishing the paper on arXiv.
+If X is an even dimensional complete intersections of two quadrics, this package also contains functions to compute the genus 0 invariants, up to an unknown special invariant. But it is hard to describe the commands without reference to the paper. So we will do this after publishing the paper on arXiv.
