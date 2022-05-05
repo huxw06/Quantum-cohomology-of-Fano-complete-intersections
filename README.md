@@ -5,10 +5,17 @@ To use the package QuantumCohomologyFanoCompleteIntersection.m2, for example in 
 
 /applications/macaulay2-1.xx/share/macaulay2
 
-where 1.xx is your Macaulay2 version.
+where 1.xx is your Macaulay2 version, or use the command 
+
+path = append(path, "...")
+
+where ... is the directory containing the downloaded package. For other OS please consult http://www2.macaulay2.com/Macaulay2/Downloads/.
+
 Then in Macaulay2 running
 
 loadPackage "QuantumCohomologyFanoCompleteIntersection"
+
+----------------------------
 
 Let X be a Fano complete intersection of dim n and multidegree d=(d_1,…d_r) in P^{n+r}, where each d_i>=2. Let h be the hyperplane cohomology class on X. Denote by t_0,t_1,…,t_n the basis dual to 1,h,…,h^n.
 Then running
