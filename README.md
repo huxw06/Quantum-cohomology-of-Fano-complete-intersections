@@ -34,3 +34,5 @@ Warning:
 If you encounter an information “the square root recursion fails at order ..” when you use generatingFuncOfDegreeUpToB, please contact the author! The main conjecture in an forthcoming update of  https://arxiv.org/abs/1501.03683 is, among other things, that such information will never appear.
 
 If X is an even dimensional complete intersections of two quadrics, this package also contains functions to compute the genus 0 invariants, up to an unknown special invariant. 
+
+Update in 2022/05/05: the bug on the function generatingFuncOfDegreeUpToB fixed. Thanks Shuai Guo for finding this. 
